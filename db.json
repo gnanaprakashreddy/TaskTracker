@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "name": "abc",
+      "id": 3
+    },
+    {
+      "email": "abc123@gmail.com",
+      "password": "abc123",
+      "name": "",
+      "id": 4
+    },
+    {
+      "email": "abc123@gmail.com",
+      "password": "abc123",
+      "name": "",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "details": "sa assignment",
+      "date": "2021-12-17",
+      "id": 1
+    },
+    {
+      "details": "scholar meet",
+      "date": "2021-12-18",
+      "id": 2
+    },
+    {
+      "details": "bits class",
+      "date": "2021-12-18",
+      "id": 3
+    }
+  ]
+}
