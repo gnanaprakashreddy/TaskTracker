@@ -4,7 +4,7 @@
   <input type = "password" v-model = "password" placeholder = "Enter Password"/>
   <button v-on:click="Login"> Login </button>
   <p>
-  <router-link to='/sign-up'>New User?? SignUp</router-link>
+  <router-link to='/'>New User?? SignUp</router-link>
   </p>
   </div>
 </template>
@@ -43,7 +43,11 @@ export default {
     margin-right : auto;
     margin-left : auto;
     border :  1px solid skyblue;
+    border-radius: 5px;
     }
+.login a{
+    color : white
+}
 .login button{
     width : 320px;
     height :  40px;
@@ -54,5 +58,6 @@ export default {
     background : green;
     color : #fff;
     cursor : pointer;
+     border-radius: 5px;
 }
 </style>

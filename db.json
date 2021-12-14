@@ -13,27 +13,23 @@
       "id": 4
     },
     {
-      "email": "abc123@gmail.com",
-      "password": "abc123",
+      "email": "",
+      "password": "",
       "name": "",
       "id": 5
+    },
+    {
+      "email": "asdf",
+      "password": "asdf",
+      "name": "asdf",
+      "id": 6
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "asdf",
+      "name": "asdf",
+      "id": 7
     }
   ],
-  "tasks": [
-    {
-      "details": "sa assignment",
-      "date": "2021-12-17",
-      "id": 1
-    },
-    {
-      "details": "scholar meet",
-      "date": "2021-12-18",
-      "id": 2
-    },
-    {
-      "details": "bits class",
-      "date": "2021-12-18",
-      "id": 3
-    }
-  ]
+  "tasks": []
 }

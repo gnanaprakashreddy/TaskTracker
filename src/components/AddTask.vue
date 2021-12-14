@@ -46,20 +46,22 @@ export default {
     height : 40px;
     padding-left  : 20px;
     display : block;
-    margin-bottom: 30px;
+    margin: 30px;
     margin-right : auto;
     margin-left : auto;
     border :  1px solid skyblue;
+    border-radius: 5px;
     }
 .add button{
     width : 320px;
     height :  40px;
-    margin-bottom: 400px;
+    margin-bottom: 40px;
     margin-right : auto;
     margin-left : auto;
     border :  1px solid green;
     background : green;
     color : #fff;
     cursor : pointer;
+    border-radius: 5px;
 }
 </style>

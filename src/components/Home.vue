@@ -1,8 +1,7 @@
 <template>
 <div class="container">
-<h1> Task List</h1>
 <Header/>
-<table border="1">
+<table id="tb">
 <tr>
 <td><b>Task Name</b></td>
 <td><b> Date of The Task</b></td>
@@ -62,9 +61,15 @@ export default {
 .container button{
    background :red;
    color :white;
+   border: 5px;
 }
 .container table{
+   margin-top: 5px;
    height : 100%;
    width : 100%;
+   border : none;
+}
+#tb{
+   border: none
 }
 </style>

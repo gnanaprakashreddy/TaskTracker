@@ -20,6 +20,7 @@ export default {
 .container{
     background-color : green;
     overflow : hidden;
+    border-radius: 5px;
 }
 .container a{
     float : left;
