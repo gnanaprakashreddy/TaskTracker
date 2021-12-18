@@ -37,14 +37,13 @@ export default {
    methods:{
        async deleteTask(id){
             let result = await axios.delete("http://localhost:3000/tasks/"+id);
-           console.log(result.status);
-           window.location.reload();
-
+            console.log(result.status);
+            window.location.reload();
         }
    },
      async mounted(){
           let user = localStorage.getItem('user-info');
-          console.log(user);
+          console.log("In Home Page");
           this.name = JSON.parse(user).name;
           console.warn(this.name);
           if(!user){

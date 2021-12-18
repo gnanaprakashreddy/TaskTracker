@@ -1,4 +1,4 @@
-import  Home from './components/Home.vue'
+import Home from './components/Home.vue'
 import SignUp from  './components/SignUp.vue'
 import Login from './components/Login.vue'
 import Task from './components/AddTask.vue'

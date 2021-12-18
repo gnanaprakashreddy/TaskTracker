@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
 import axios from 'axios'
 export default {
   name: 'Login',
@@ -22,11 +23,13 @@ export default {
   methods:{
      async Login(){
           let result = await axios.get(`http://localhost:3000/users?email=${this.email}&password=${this.password}`)
-          console.warn(result);
-          if(result.status == 200 && result.data.length>=1){
-              
+        //   console.warn(result);
+          if(result.status == 200 && result.data.length>=1){  
               localStorage.setItem("user-info",JSON.stringify(result.data));
               this.$router.push({name:'Home'})
+          }
+          else{
+              alert("Please register first..!")
           }
       },
   }

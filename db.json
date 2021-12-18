@@ -1,34 +1,22 @@
 {
   "users": [
     {
-      "email": "abc@gmail.com",
-      "password": "abc123",
-      "name": "abc",
-      "id": 3
-    },
-    {
-      "email": "abc123@gmail.com",
-      "password": "abc123",
-      "name": "",
-      "id": 4
-    },
-    {
-      "email": "",
-      "password": "",
-      "name": "",
-      "id": 5
-    },
-    {
-      "email": "asdf",
+      "email": "abcd@gmail.com",
       "password": "asdf",
-      "name": "asdf",
-      "id": 6
+      "name": "abcd",
+      "id": 1
     },
     {
       "email": "abcd@gmail.com",
       "password": "asdf",
-      "name": "asdf",
-      "id": 7
+      "name": "asfd",
+      "id": 2
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "asdf",
+      "name": "abcd",
+      "id": 3
     }
   ],
   "tasks": []
